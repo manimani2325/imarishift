@@ -336,7 +336,7 @@ export default function App(){
   const staffModeStaff=staff.filter(s=>s.grade!=="GM");
 
   // GMパスワード
-  const GM_PASSWORD="GM1234";
+  const GM_PASSWORD="20130125";
   const [pwModal,setPwModal]=useState(false);
   const [pwInput,setPwInput]=useState("");
   const [pwError,setPwError]=useState(false);
